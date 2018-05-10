@@ -1,0 +1,4 @@
+version=$1
+#./lud -i ../../data/lud/2048.dat $version
+#./lud -s 8192 $version
+./lud -i ../../../benchmark/data/lud/64.dat $version

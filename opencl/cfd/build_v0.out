@@ -1,0 +1,7 @@
+aoc euler3d_kernel_v0.aoco -g -v --report --board p385a_sch_ax115  -DUSE_RESTRICT -DFP_SINGLE -DALTERA_CL -DUSE_AOT
+aoc: Environment checks are completed successfully.
+aoc: Hardware generation completed successfully.
+Couldn't open /home/hsa_team/rodinia_fpga/opencl/cfd/euler3d_kernel_v0.aocx.tmp: No such file or directory
+Error: Can't save FPGA configuration file fpga.bin into package file: 'pkg_editor fpga.bin set .acl.fpga.bin fpga.bin' failed
+
+make: *** [euler3d_kernel_v0.aocx] Error 1

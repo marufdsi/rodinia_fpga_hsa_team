@@ -1,0 +1,25 @@
+rm -rf euler3d_kernel_v2_BSIZE16
+aoc -c euler3d_kernel_v2.cl -g -v --report --board p385a_sch_ax115  -DUSE_RESTRICT -DFP_SINGLE -DBSIZE=16 -DALTERA_CL -DUSE_AOT -o euler3d_kernel_v2_BSIZE16.aoco
+aoc: Environment checks are completed successfully.
+aoc: Selected target board p385a_sch_ax115
+aoc: Running OpenCL parser....
+aoc: OpenCL parser completed successfully.
+aoc: Compiling....
+aoc: Linking with IP library ...
+
++--------------------------------------------------------------------+
+; Estimated Resource Usage Summary                                   ;
++----------------------------------------+---------------------------+
+; Resource                               + Usage                     ;
++----------------------------------------+---------------------------+
+; Logic utilization                      ;   51%                     ;
+; ALUTs                                  ;   20%                     ;
+; Dedicated logic registers              ;   31%                     ;
+; Memory blocks                          ;   50%                     ;
+; DSP blocks                             ;   20%                     ;
++----------------------------------------+---------------------------;
+aoc: First stage compilation completed successfully.
+aoc: To compile this project, run "aoc euler3d_kernel_v2_BSIZE16.aoco"
+aoc euler3d_kernel_v2_BSIZE16.aoco -g -v --report --board p385a_sch_ax115  -DUSE_RESTRICT -DFP_SINGLE -DALTERA_CL -DUSE_AOT
+aoc: Environment checks are completed successfully.
+aoc: Hardware generation completed successfully.
