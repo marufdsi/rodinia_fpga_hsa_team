@@ -1,0 +1,1 @@
+./kmeans_fpga.exe -o -i ../../benchmark/data/kmeans/kdd_cup 
